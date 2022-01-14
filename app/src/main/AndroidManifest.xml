@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Quizzzo">
         <activity
+            android:name=".ResultActivity"
+            android:exported="false"
+            android:theme="@style/NoActionBarTheme"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Quiz"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ChooseQuiz"
+            android:exported="false"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait"/>
+        <activity
             android:name=".SignUp"
             android:exported="false" />
         <activity
