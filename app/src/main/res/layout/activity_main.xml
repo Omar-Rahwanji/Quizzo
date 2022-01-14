@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/activity_background_color_login"
+    android:background="@color/activity_background_color"
     tools:context=".MainActivity">
 
     <TextView
@@ -16,7 +16,7 @@
         android:fontFamily="@font/aclonica"
         android:gravity="center_vertical"
         android:text="Quizzzo"
-        android:textColor="#D400D4"
+        android:textColor="@color/text_color1"
         android:textSize="45dp" />
 
     <EditText
@@ -27,6 +27,7 @@
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
         android:layout_marginTop="65dp"
+        android:textColorHint="@color/text_color2"
         android:hint="Email"
         />
 
@@ -38,7 +39,9 @@
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
         android:layout_marginTop="30dp"
+        android:textColorHint="@color/text_color2"
         android:hint="Password"
+
         />
 
     <Button
@@ -48,7 +51,8 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="15dp"
-        android:backgroundTint="@color/button_background_color_login"
+        android:backgroundTint="@color/button_background_color"
+        android:textColor="@color/text_color1"
         android:text="Login"
         android:textStyle="bold"
         />
@@ -63,12 +67,13 @@
             android:layout_height="2dp"
             android:layout_marginStart="15dp"
             android:layout_marginEnd="15dp"
-            android:background="#c0c0c0"/>
+            android:background="#490b3d"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="OR"
+            android:textColor="#490b3d"
             />
 
         <View
@@ -76,7 +81,7 @@
             android:layout_height="2dp"
             android:layout_marginStart="15dp"
             android:layout_marginEnd="15dp"
-            android:background="#c0c0c0"/>
+            android:background="#490b3d"/>
 
     </LinearLayout>
 
@@ -88,7 +93,7 @@
         android:fontFamily="@font/amaranth_bold"
         android:gravity="center_vertical"
         android:text="Don't have an account?"
-        android:textColor="#4F5A65"
+        android:textColor="#490b3d"
         android:textSize="15dp" />
 
     <Button
@@ -98,8 +103,9 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="15dp"
-        android:backgroundTint="@color/button_background_color_signup"
+        android:backgroundTint="@color/button_background_color"
         android:text="Sign Up"
+        android:textColor="#00abe1"
         android:textStyle="bold"
         />
 
