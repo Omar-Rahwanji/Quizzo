@@ -25,7 +25,9 @@ class SignUp : AppCompatActivity() {
         initView()
         btnLogin.setOnClickListener { view ->
             val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
+            intent.putExtra("notFirstTime","1");
+            startActivity(intent);
+            finish();
         }
 
         btnSignup.setOnClickListener { addUser() }
